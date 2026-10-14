@@ -296,7 +296,7 @@ if page == "1. ⚡ Forecast & Device Optimizer":
         "Select date:", value=datetime.date(2018, 7, 15)
     )
   with col_target:
-    st.selectbox("Target:", ["Price (€/MWh)", "Demand (GW)"])
+    st.selectbox("Target:", ["Price (€/MWh)"])
   with col_model:
     model_choice = st.selectbox("Model:", ["LSTM (Best)", "Seasonal Naive"])
 
